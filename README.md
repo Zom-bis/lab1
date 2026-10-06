@@ -6,6 +6,13 @@
 
 ## Установка
 
+Клонировать репозиторий
+1.В самом IDE через URL
+2.Через git clone <ссылка>
+
+Активировать окружение
+.\.venv\Scripts\activate
+
 Из папки lab_01:
 
     python -m pip install -e ".[dev]"
