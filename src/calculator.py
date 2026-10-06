@@ -84,7 +84,7 @@ def validation(tokens: list[str]) -> list[str]:
             elif (not result or result[-1] == "(") and not unary_used:
                 raise CalcError(f"пропущен операнд перед '{token}'")
             else:
-                raise CalcError(f"два оператора подряд перед '{token}'")
+                raise CalcError(f"два оператора подряд перед")
         else:
             if is_number(token) or token == "(":
                 raise CalcError(f"пропущен оператор перед '{token}'")
